@@ -1,0 +1,44 @@
+{
+  "version": "v0.4",
+  "date": "2026-10-25",
+  "revision_type": "Explanatory proof and source clarification; received independent AI review record",
+  "verification_implementation_version": "v0.2",
+  "previous_v0_3_archive_SHA256": "2204f5b398f13c27dc82146660559c0ef80e8cb12d002e47b0e80aa791b85fcd",
+  "unchanged_PROOF_sections_1_to_4": {
+    "SHA256": "c683c1324fc49fa61debb235d1f0fee8b9651ea3c47b056b5e9944f32ebd8a13",
+    "extraction": "From the first byte of the Section 1 heading through the byte before the Section 5 heading"
+  },
+  "unchanged_program_SHA256": {
+    "verify.py": "45351245194c0efd87a9bb5084d75a0ef8834ee26f4b1bfc97a6a94f97520b78",
+    "exact_algebra.py": "7a3895557a01453328fc9c9c2b0f43b8762b3888bc9955c0ebe56235085e6e4c",
+    "audit_positivity_dense.py": "ed921aa47c9276ea5777e7b4c273674bbbbab674733080e7e8f64580d01e7324",
+    "check_hashes.py": "a9439e69d2e9efaa0130f39938bf19cd40f3cc60193df00c511abab13a5585f7"
+  },
+  "changes": [
+    "Explicit stationary time reversal P(a,b)^T=P(b,a) and label-preserving reflection in Section 5",
+    "FTY author-hosted 30 March 2014 manuscript fixed, with the appendix shift-only statement cited",
+    "Received AI proof review recorded without upgrading its two conditional verdicts",
+    "Full candidate includes the numerical-review report omitted from the smaller review packet",
+    "Historical manifest counts and Windows v0.2 scope separated",
+    "Additional source-access attempts recorded; unavailable final papers remain unchecked"
+  ],
+  "status": {
+    "received_independent_AI_proof_review": "5_PASS_2_CONDITIONAL_PASS_FOR_V03",
+    "v04_response": "REFLECTION_EXPLANATION_AND_FTY_SOURCE_CLARIFICATION_ADDED",
+    "independent_re_review_of_v04": "NOT_RUN",
+    "human_peer_review": "NOT_RUN",
+    "references": "PARTIAL",
+    "novelty": "INCONCLUSIVE",
+    "publication": "NOT_PERFORMED",
+    "Howard_periodic_scenery_full_text": "NOT_OBTAINED",
+    "Matzinger_Rolles_2003_final_full_text": "NOT_OBTAINED"
+  },
+  "windows_verification": {
+    "status": "RECEIVED_V02_CONSOLE_LOG_ONLY",
+    "python": "3.12.10",
+    "manifest_entries": 15,
+    "implementation_identical_to_v04": true,
+    "v04_manifest_checked_on_windows": false,
+    "receipt": "WINDOWS_VERIFICATION_RECEIPT_20261025.md"
+  }
+}

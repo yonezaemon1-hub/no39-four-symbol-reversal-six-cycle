@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "scope": "additional internal exact positivity audit",
+  "imports_original_verifiers": false,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "method": "expand rational Bernstein basis into ordinary coefficients",
+  "checks": {
+    "Bernstein_expansion": true,
+    "partition_of_unity": true,
+    "positive_Bernstein_coefficients": true,
+    "completed_square": true,
+    "endpoint_factorization": true,
+    "threshold_derivative": true,
+    "threshold_positive_by_exact_square": true,
+    "excluded_endpoint_G_1_1_is_zero": true
+  },
+  "B": [
+    "4",
+    "5/2",
+    "101/80",
+    "5/8",
+    "403/640",
+    "443/512",
+    "535/4096"
+  ],
+  "q_3u_over4_power_coefficients": [
+    "4",
+    "-9",
+    "63/16",
+    "27/4",
+    "-567/128",
+    "-243/256",
+    "-729/4096"
+  ],
+  "threshold_square_margin": "851/1024",
+  "review_limit": "not an independent external proof audit"
+}

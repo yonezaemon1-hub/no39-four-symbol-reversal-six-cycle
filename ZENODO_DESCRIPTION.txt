@@ -1,0 +1,17 @@
+Research Note No.39. Unrefereed, AI-assisted preprint, version 0.4, 25 October 2026.
+Ryutaro Yonezu, Yonezu Research Lab.
+
+For a stationary continuous-time homogeneous six-cycle with clockwise rate a>0, counterclockwise rate b>0, deterministic binary labels 001011, and equal sampling intervals, this note derives an exact expression for p(0011)-p(1100). A strictly positive polynomial factor proves that this one pair of four-consecutive-symbol population probabilities witnesses every nonresonant time-reversal asymmetry in the specified model. At the resonant intervals, the entire sampled process is time-reversal symmetric. Length four is sharp because lengths one through three are reversal symmetric for every stationary binary process.
+
+The short-word obstruction, periodic-sampling ambiguity and eventual scenery-reconstruction implications are established prior context. Historical novelty of the explicit four-word refinement remains INCONCLUSIVE. References are PARTIAL; Howard's periodic-scenery full text and the final Matzinger-Rolles article remain unchecked. No priority or first-discovery claim is made.
+
+Received AI proof and differential reviews report independent derivations and acceptance of the reflection clarification. The remaining FTY shift-only source condition was checked author-side against the original appendix. These are scoped AI-assisted checks, not human journal or conference peer review. Additional reviewer SciPy programs and raw data were not supplied. The fixed v0.4 candidate's 32-entry manifest and existing verification programs passed. No new scientific experiment was added for publication typesetting.
+
+The result is about word probabilities, not a reliable decision from one four-bit sample, a sample-size guarantee, or a general hidden-Markov-model state bound. The Windows receipt concerns the byte-identical v0.2 implementation under Python 3.12.10 and does not verify the later document manifests.
+
+Files: five-page English PDF and companion ZIP containing matching LaTeX, the unchanged audited candidate archive, offline standard-library Python checkers, evidence, audit history, source-access limits and SHA256 manifests.
+
+Copyright (c) 2026 Ryutaro Yonezu. All rights reserved. No general reuse or redistribution license is granted.
+Research inquiries and earlier overlapping work: yonezaemon1+research@gmail.com.
+
+Repository: https://github.com/yonezaemon1-hub/no39-four-symbol-reversal-six-cycle

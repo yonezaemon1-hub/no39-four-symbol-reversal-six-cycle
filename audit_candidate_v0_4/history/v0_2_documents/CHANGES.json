@@ -1,0 +1,22 @@
+{
+  "version": "v0.2",
+  "date": "2026-10-25",
+  "original_archive_SHA256": "e2bb49efb72e28ba2bb74d73a18ad9ffe0d7da93af20a88f77c24b4a8ee8c104",
+  "unchanged_PROOF_sections_1_to_5_SHA256": "07835ff39a886a0d03e97ff4ab223a00b3456a3afc37c3e61eeff790caf50663",
+  "unchanged_exact_algebra_SHA256": "7a3895557a01453328fc9c9c2b0f43b8762b3888bc9955c0ebe56235085e6e4c",
+  "changes": [
+    "Received external numerical review recorded as reported, not rerun",
+    "Separate dense rational positivity checker and evidence added",
+    "University Matzinger-Lember manuscript recovered and compared, journal PDF not compared",
+    "verify.py supports -I by explicitly including own package directory",
+    "Review and version labels updated; model, theorem and Sections 1-5 unchanged"
+  ],
+  "status": {
+    "external_numerical_review": "REPORTED_PASS",
+    "internal_additional_exact_audit": "PASS",
+    "external_independent_proof_audit": "NOT_RUN",
+    "references": "PARTIAL",
+    "novelty": "INCONCLUSIVE",
+    "publication": "NOT_PERFORMED"
+  }
+}

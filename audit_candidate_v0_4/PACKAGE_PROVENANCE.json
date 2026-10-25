@@ -1,0 +1,47 @@
+{
+  "candidate": "No.39 v0.4",
+  "date": "2026-10-25",
+  "source_archive": {
+    "file": "No39_Four_Symbol_Reversal_Search_v0_3_20261025.zip",
+    "SHA256": "2204f5b398f13c27dc82146660559c0ef80e8cb12d002e47b0e80aa791b85fcd"
+  },
+  "reviewed_smaller_packet": {
+    "file": "No39_Independent_Proof_Review_20261025.zip",
+    "SHA256": "eb79ba0b53ca85d1c92732cfd0fce597bd25e1190185b7570b0020c104e55298",
+    "manifest_entries": 16,
+    "full_v03_manifest_entries": 22
+  },
+  "received_review_original_PROOF_sections_1_to_5": {
+    "SHA256": "1038c579999ef048742be30868653002c8e9f5d850ae64f5956b839d36b2d6d9",
+    "extraction": "From the first byte of the Section 1 heading through the byte before the Section 6 heading; no whitespace normalization"
+  },
+  "v04_PROOF_sections_1_to_4": {
+    "SHA256": "c683c1324fc49fa61debb235d1f0fee8b9651ea3c47b056b5e9944f32ebd8a13",
+    "extraction": "From the first byte of the Section 1 heading through the byte before the Section 5 heading"
+  },
+  "unchanged_program_SHA256": {
+    "verify.py": "45351245194c0efd87a9bb5084d75a0ef8834ee26f4b1bfc97a6a94f97520b78",
+    "exact_algebra.py": "7a3895557a01453328fc9c9c2b0f43b8762b3888bc9955c0ebe56235085e6e4c",
+    "audit_positivity_dense.py": "ed921aa47c9276ea5777e7b4c273674bbbbab674733080e7e8f64580d01e7324",
+    "check_hashes.py": "a9439e69d2e9efaa0130f39938bf19cd40f3cc60193df00c511abab13a5585f7"
+  },
+  "mathematical_scope": "Main theorem and Sections 1-4 unchanged. Section 5 reflection explanation and Section 6 source references clarified.",
+  "review_evidence": {
+    "record": "RECEIVED_PROOF_REVIEW_V03.md",
+    "reviewer_code_received": false,
+    "reviewer_raw_data_received": false,
+    "reported_5000_point_scipy_experiment_reproduced_here": false
+  },
+  "computational_reruns": "The existing unmodified checkers are rerun for this assembled package; their implementation label remains v0.2. Outputs are not the received reviewer's SciPy experiment.",
+  "status": {
+    "received_independent_AI_proof_review": "5_PASS_2_CONDITIONAL_PASS_FOR_V03",
+    "v04_response": "REFLECTION_EXPLANATION_AND_FTY_SOURCE_CLARIFICATION_ADDED",
+    "independent_re_review_of_v04": "NOT_RUN",
+    "human_peer_review": "NOT_RUN",
+    "references": "PARTIAL",
+    "novelty": "INCONCLUSIVE",
+    "publication": "NOT_PERFORMED",
+    "Howard_periodic_scenery_full_text": "NOT_OBTAINED",
+    "Matzinger_Rolles_2003_final_full_text": "NOT_OBTAINED"
+  }
+}

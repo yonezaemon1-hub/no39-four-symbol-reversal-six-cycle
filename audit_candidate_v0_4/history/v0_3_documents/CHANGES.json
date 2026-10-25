@@ -1,0 +1,41 @@
+{
+  "version": "v0.3",
+  "date": "2026-10-25",
+  "revision_type": "documentation and received-review record only",
+  "verification_implementation_version": "v0.2",
+  "previous_v0_2_archive_SHA256": "f125103c4588de65141d08db6da7ad6ec239099f2195ac79e8ef0cf7b0990017",
+  "unchanged_PROOF_sections_1_to_5_SHA256": "07835ff39a886a0d03e97ff4ab223a00b3456a3afc37c3e61eeff790caf50663",
+  "unchanged_program_SHA256": {
+    "verify.py": "45351245194c0efd87a9bb5084d75a0ef8834ee26f4b1bfc97a6a94f97520b78",
+    "exact_algebra.py": "7a3895557a01453328fc9c9c2b0f43b8762b3888bc9955c0ebe56235085e6e4c",
+    "audit_positivity_dense.py": "ed921aa47c9276ea5777e7b4c273674bbbbab674733080e7e8f64580d01e7324",
+    "check_hashes.py": "a9439e69d2e9efaa0130f39938bf19cd40f3cc60193df00c511abab13a5585f7"
+  },
+  "changes": [
+    "FTY criterion clarified as pairwise distinct complex values, with equal-modulus conjugate pairs allowed",
+    "Shift-only reconstruction convention made explicit",
+    "Received in-conversation 20,000-point report recorded; raw code and data not supplied",
+    "Normalized endpoint statistic 4.2 qualified as sampled only; global infimum is 1",
+    "No new numerical experiment; unchanged v0.2 programs and evidence retained",
+    "Windows/Python 3.12.10 v0.2 PASS log received; runtime result applies to byte-identical v0.3 verification programs"
+  ],
+  "status": {
+    "mathematics_and_computation": "REPORTED_PASS_WITH_SCOPE_LIMITS",
+    "independent_external_proof_audit": "NOT_RUN",
+    "references": "PARTIAL",
+    "novelty": "INCONCLUSIVE",
+    "publication": "NOT_PERFORMED",
+    "windows_runtime": "PASS_REPORTED_FOR_V02_IDENTICAL_IMPLEMENTATION_IN_V03"
+  },
+  "archive_before_Windows_receipt_SHA256": "0eb90f0d20c6dc235731450be7bb271354ac5ceff0549de18e4143dfeccf28c9",
+  "windows_verification": {
+    "status": "PASS_FROM_USER_SUPPLIED_EXECUTION_LOG",
+    "tested_package": "v0.2",
+    "python": "3.12.10",
+    "package_manifest_files": 15,
+    "programs_identical_to_v0_3": true,
+    "output_json_file_received": false,
+    "reported_rerun_win_json_SHA256": "24ACC41FB3D40569A40EF07D0C2F414915D4C59DBD553705345335DD48A2F368",
+    "receipt": "WINDOWS_VERIFICATION_RECEIPT_20261025.md"
+  }
+}
